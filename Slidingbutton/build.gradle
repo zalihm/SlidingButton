@@ -45,8 +45,8 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'id.ss564.lib.slidingbutton'
-            artifactId 'slidingbutton'
+            groupId 'com.github.zalihm'
+            artifactId 'SlidingButton'
             version '1.0.0'
 
 //            Add your artifacts here
