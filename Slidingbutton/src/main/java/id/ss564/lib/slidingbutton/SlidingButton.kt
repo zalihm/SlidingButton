@@ -19,6 +19,8 @@ import androidx.annotation.*
 import androidx.core.content.ContextCompat
 import kotlin.math.max
 
+
+
 /**
  * Created by Anwar on 29 Mar 2020.
  */
@@ -203,19 +205,19 @@ class SlidingButton : FrameLayout {
     ) {
 
         val colorPrimary = TypedValue()
-        context.theme.resolveAttribute(R.color.colorPrimary, colorPrimary, true)
+        context.theme.resolveAttribute(com.google.android.material.R.attr.colorPrimary, colorPrimary, true)
 
         val ex by lazy {
             TypedValue().apply {
                 context.theme.resolveAttribute(
-                    R.color.colorAccent,
+                    com.google.android.material.R.attr.colorAccent,
                     this,
                     true
                 )
             }.data
         }
         val colorAccent = TypedValue()
-        context.theme.resolveAttribute(R.color.colorAccent, colorAccent, true)
+        context.theme.resolveAttribute(com.google.android.material.R.attr.colorPrimary, colorAccent, true)
         val arr = context.obtainStyledAttributes(
             attrs,
             R.styleable.SlidingButton,

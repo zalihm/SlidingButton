@@ -52,7 +52,7 @@
 
     <attr name="slidingButtonStyle" format="reference" />
 
-    <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">#00000</color>
-    <color name="colorAccent">#000000</color>
+<!--    <attr name="colorPrimary">#FFFFFF</attr>-->
+<!--    <attr name="colorPrimaryDark">#00000</attr>-->
+<!--    <attr name="colorAccent">#000000</attr>-->
 </resources>

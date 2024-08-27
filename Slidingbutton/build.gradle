@@ -49,9 +49,9 @@ publishing {
             artifactId 'slidingbutton'
             version '1.0.0'
 
-//            // Add your artifacts here
-//            artifact(sourceDir) {
-//                type 'jar'
+//            Add your artifacts here
+//            artifact('build/outputs/aar') {
+//                type 'aar'
 //            }
         }
     }
